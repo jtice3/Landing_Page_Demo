@@ -1,0 +1,81 @@
+* { /* Called a reset */
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.1em;
+    color:#926239;
+    line-height:1.6em;
+}
+
+#showcase {
+    background-image:url('../images/bgPhoto.jpeg');
+    background-size:cover; /* Uses full image to cover bg */
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+    text-align:center;
+    color:#f4f4f4;
+}
+
+#showcase h1 {
+    font-size:50px;
+    line-height:1.2;
+}
+
+#showcase p {
+    font-size:20px;
+}
+
+#showcase .button {
+    font-size:1.1em;
+    text-decoration:none;
+    color:#f4f4f4;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+}
+
+#showcase .button:hover {
+    background:#926239;
+    color:#fff;
+}
+
+#sectionA {
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+}
+
+#sectionB {
+    padding:20px;
+    background:#f4f4f49;
+    text-align:center;
+}
+
+#sectionC {
+    display:flex;
+}
+
+#sectionC div {
+    padding:20px;
+}
+
+#sectionC .box1, #sectionC .box3 {
+    background:#926239;
+    color:#fff;
+}
+
+#sectionC .box2 {
+    background:#f9f9f9;
+}
